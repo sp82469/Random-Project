@@ -16,6 +16,8 @@
 		7FB59A9D29BC62F200C6597C /* PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB59A9C29BC62F200C6597C /* PracticeTests.swift */; };
 		7FB59AA729BC62F200C6597C /* PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB59AA629BC62F200C6597C /* PracticeUITests.swift */; };
 		7FB59AA929BC62F200C6597C /* PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB59AA829BC62F200C6597C /* PracticeUITestsLaunchTests.swift */; };
+		7FB59AB729BC7D3300C6597C /* sample-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7FB59AB529BC66C700C6597C /* sample-video.mp4 */; };
+		7FEF86D429C1BDEE0057A9E2 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF86D329C1BDEE0057A9E2 /* SingletonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7FB59AA229BC62F200C6597C /* PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB59AA629BC62F200C6597C /* PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITests.swift; sourceTree = "<group>"; };
 		7FB59AA829BC62F200C6597C /* PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FB59AB529BC66C700C6597C /* sample-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sample-video.mp4"; sourceTree = "<group>"; };
+		7FEF86D329C1BDEE0057A9E2 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		7FB59A7929BC62EF00C6597C = {
 			isa = PBXGroup;
 			children = (
+				7FB59AB529BC66C700C6597C /* sample-video.mp4 */,
 				7FB59A8429BC62EF00C6597C /* Practice */,
 				7FB59A9B29BC62F200C6597C /* PracticeTests */,
 				7FB59AA529BC62F200C6597C /* PracticeUITests */,
@@ -102,6 +107,7 @@
 				7FB59A8529BC62EF00C6597C /* AppDelegate.swift */,
 				7FB59A8729BC62EF00C6597C /* SceneDelegate.swift */,
 				7FB59A8929BC62EF00C6597C /* ViewController.swift */,
+				7FEF86D329C1BDEE0057A9E2 /* SingletonClass.swift */,
 				7FB59A8B29BC62EF00C6597C /* Main.storyboard */,
 				7FB59A8E29BC62F200C6597C /* Assets.xcassets */,
 				7FB59A9029BC62F200C6597C /* LaunchScreen.storyboard */,
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FB59AB729BC7D3300C6597C /* sample-video.mp4 in Resources */,
 				7FB59A9229BC62F200C6597C /* LaunchScreen.storyboard in Resources */,
 				7FB59A8F29BC62F200C6597C /* Assets.xcassets in Resources */,
 				7FB59A8D29BC62EF00C6597C /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FEF86D429C1BDEE0057A9E2 /* SingletonClass.swift in Sources */,
 				7FB59A8A29BC62EF00C6597C /* ViewController.swift in Sources */,
 				7FB59A8629BC62EF00C6597C /* AppDelegate.swift in Sources */,
 				7FB59A8829BC62EF00C6597C /* SceneDelegate.swift in Sources */,
