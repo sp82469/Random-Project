@@ -17,3 +17,14 @@ class Singleton {
         self.code = code
     }
 }
+
+class SingletonSecond {
+    static let object = SingletonSecond(number: 0,code: 0)
+    var number : Int
+    var code : Int
+    private init(number : Int,code  : Int)
+    {
+        self.number = number
+        self.code = code
+    }
+}
